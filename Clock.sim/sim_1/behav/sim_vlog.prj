@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../Clock.srcs/sources_1/new/Clock_main.sv"
+sv xil_defaultlib  "../../../Clock.srcs/sim_1/new/sim.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
